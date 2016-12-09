@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jnr-CloudFoundry
+  host: jnr-CloudFoundry
+  disk_quota: 1024M
+  services:
+  - jnr-CloudFoundry-cloudantNoSQLDB
